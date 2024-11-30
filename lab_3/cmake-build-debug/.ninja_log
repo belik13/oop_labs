@@ -1,0 +1,24 @@
+# ninja log v5
+4	837	7519409164969800	CMakeFiles/lab_3.dir/main.cpp.obj	9c51f1a28cacd210
+2	589	7519411191933274	CMakeFiles/lab_3.dir/src/Rect.cpp.obj	6d3e0cb2798c74c3
+30	821	7519339886545602	CMakeFiles/lab_3.dir/src/Rhombus.cpp.obj	5e6af67778dd8225
+23	697	7519210109875612	CMakeFiles/lab_3.dir/src/Point.cpp.obj	2e8b1b79823e54b1
+590	724	7519411193329789	lab_3.exe	75a6a4be9bce0cd4
+17	786	7519926594722408	CMakeFiles/lab_3.dir/src/Trapezhium.cpp.obj	9cc4f6b39dd5309f
+3	654	7519926974608036	CMakeFiles/lab_3.dir/main.cpp.obj	9c51f1a28cacd210
+15	666	7519926974743166	CMakeFiles/lab_3.dir/src/Trapezhium.cpp.obj	9cc4f6b39dd5309f
+667	923	7519926977276811	lab_3.exe	a6b81d12612e4602
+3	491	7519927416653395	CMakeFiles/lab_3.dir/src/Trapezhium.cpp.obj	9cc4f6b39dd5309f
+491	604	7519927417741905	lab_3.exe	a6b81d12612e4602
+3	476	7519932219143525	CMakeFiles/lab_3.dir/src/Trapezhium.cpp.obj	9cc4f6b39dd5309f
+477	588	7519932220222201	lab_3.exe	a6b81d12612e4602
+3	542	7519933650176091	CMakeFiles/lab_3.dir/src/Trapezhium.cpp.obj	9cc4f6b39dd5309f
+543	666	7519933651391218	lab_3.exe	a6b81d12612e4602
+2	510	7519934212556188	CMakeFiles/lab_3.dir/src/Trapezhium.cpp.obj	9cc4f6b39dd5309f
+510	614	7519934213569698	lab_3.exe	a6b81d12612e4602
+3	513	7519934673071843	CMakeFiles/lab_3.dir/src/Trapezhium.cpp.obj	9cc4f6b39dd5309f
+514	620	7519934674107792	lab_3.exe	a6b81d12612e4602
+2	500	7519936637787102	CMakeFiles/lab_3.dir/src/Trapezhium.cpp.obj	9cc4f6b39dd5309f
+501	615	7519936638911827	lab_3.exe	a6b81d12612e4602
+2	472	7519939420275900	CMakeFiles/lab_3.dir/src/Trapezhium.cpp.obj	9cc4f6b39dd5309f
+473	592	7519939421416886	lab_3.exe	a6b81d12612e4602

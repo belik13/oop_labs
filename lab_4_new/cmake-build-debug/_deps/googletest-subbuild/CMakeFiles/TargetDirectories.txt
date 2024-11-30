@@ -1,0 +1,3 @@
+C:/Users/bmaks/Downloads/lab_4_new/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+C:/Users/bmaks/Downloads/lab_4_new/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/bmaks/Downloads/lab_4_new/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

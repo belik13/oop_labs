@@ -1,0 +1,7 @@
+# ninja log v5
+13	1077	7546122661097467	CMakeFiles/lab_7.dir/src/knight.cpp.obj	5e2510a602837da3
+21	1089	7546122661223383	CMakeFiles/lab_7.dir/src/elf.cpp.obj	ac85965326bd8de2
+28	1099	7546122661328520	CMakeFiles/lab_7.dir/src/druid.cpp.obj	76b9f4936c8f2f04
+1	2683	7546122677126188	CMakeFiles/lab_7.dir/main.cpp.obj	4b1cc503d08d421d
+5	1032	7546122796223940	CMakeFiles/lab_7.dir/src/npc.cpp.obj	558cf87fcda6ea2
+1033	1389	7546122799743933	lab_7.exe	84316de72302c256
