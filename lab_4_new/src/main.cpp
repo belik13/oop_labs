@@ -29,23 +29,29 @@ int main() {
 
         std::cin >> cmd;
         if (cmd == 1) {
-            Rect<double> rect;
+            Rect<TYPE> rect;
             std::cin >> rect;
-
+            std::cout << "Центр фигуры - ";
+            Point<TYPE> centre = rect.centre();
+            std::cout << centre << std::endl;
             std::cout << "Площадь фигуры = " << (double) rect;
 
             figures[i] = std::make_shared<Rect<TYPE>>(rect);
         } else if (cmd == 2) {
-            Trapezhium<double> trapezhium;
+            Trapezhium<TYPE> trapezhium;
             std::cin >> trapezhium;
-
+            std::cout << "Центр фигуры - ";
+            Point<TYPE> centre = trapezhium.centre();
+            std::cout << centre << std::endl;
             std::cout << "Площадь фигуры = " << (double) trapezhium;
 
             figures[i] = std::make_shared<Trapezhium<TYPE>>(trapezhium);
         } else if (cmd == 3) {
-            Rhombus<double> rhombus;
+            Rhombus<TYPE> rhombus;
             std::cin >> rhombus;
-
+            std::cout << "Центр фигуры - ";
+            Point<TYPE> centre = rhombus.centre();
+            std::cout << centre << std::endl;
             std::cout << "Площадь фигуры = " << (double) rhombus;
 
             figures[i] = std::make_shared<Rhombus<TYPE>>(rhombus);

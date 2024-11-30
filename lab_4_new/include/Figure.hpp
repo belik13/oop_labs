@@ -19,6 +19,10 @@ public:
         return 0;
     };
 
+    virtual Point<T> centre() const {
+        return Point<T>(0,0);
+    };
+
     virtual ~Figure() noexcept{};
 
     friend std::istream& operator>>(std::istream& is, Figure<T> &figure) {

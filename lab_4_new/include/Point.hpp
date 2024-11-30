@@ -26,7 +26,7 @@ public:
     };
 
     friend std::ostream& operator<<(std::ostream& os, Point<T>& p) {
-        std::cout << p.x << p.y;
+        std::cout << p.x << " " << p.y;
 
         return os;
     };

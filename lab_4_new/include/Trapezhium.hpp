@@ -18,6 +18,7 @@ public:
 
     operator double() const override;
 
+    Point<T> centre() const override;
     template<class C>
     friend std::istream& operator>>(std::istream& is, Trapezhium<C>& t);
 };
@@ -51,6 +52,16 @@ std::istream &operator>>(std::istream &is, Trapezhium<T> &t) {
     }
 
     return is;
+}
+
+template<class T>
+Point<T> Trapezhium<T>::centre() const{
+    Point<T> p1 = this->points[0], p2 = this->points[2];
+
+    double xc = (p1.x + p2.x) / 2.0;
+    double yc = (p1.y + p2.y) / 2.0;
+
+    return Point<T>(xc,yc);
 }
 
 template<class T>

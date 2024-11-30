@@ -15,7 +15,6 @@ TEST(Compare, All) {
 std::vector<Point<int>> points = { Point<int>(0, 0), Point<int>(0, 1), Point<int>(1, 1), Point<int>(0, 1) };
 Rect<int> r1(points);
 Rect<int> r2(r1);
-
 ASSERT_TRUE(r1 == r2);
 }
 TEST(Square, All) {
@@ -27,7 +26,6 @@ Trapezhium<float> t1(points_2);
 ASSERT_TRUE((double) t1 == 1);
 
 }
-
 
 int main(int argc, char **argv) {
     testing::InitGoogleTest(&argc, argv);

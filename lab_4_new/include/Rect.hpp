@@ -18,6 +18,7 @@ public:
         return 4;
     }
 
+    Point<T> centre() const override;
     operator double() const override;
 
     template<class C>
@@ -72,6 +73,16 @@ std::istream &operator>>(std::istream &is, Rect<T> &r) {
     }
 
     return is;
+}
+
+template<class T>
+Point<T> Rect<T>::centre() const{
+    Point<T> p1 = this->points[0], p2 = this->points[2];
+
+    double xc = (p1.x + p2.x) / 2.0;
+    double yc = (p1.y + p2.y) / 2.0;
+
+    return Point<T>(xc,yc);
 }
 
 template<class T>
